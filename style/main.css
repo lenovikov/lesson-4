@@ -1,0 +1,651 @@
+/* Default style
+======================================================================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.wrap {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.name-default {
+    padding-top: 80px;   
+    font-size: 36px;
+    font-weight: normal;
+    font-family: Raleway,sans-serif;
+    text-transform: uppercase;
+    color:#212121;
+}
+
+.line-default {
+    width: 64px;
+    height: 2px;
+    margin: 34px auto 34px;
+    background-color:rgb(231, 36, 36);
+    border:none;
+}
+
+.subtitle-default {
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(134, 135, 139);
+}
+
+button:hover {
+    background:rgb(0,0,0);  
+    cursor: pointer;    
+}
+
+/* navigation 
+================================================================*/
+
+.navigation {
+    position: fixed;
+    z-index: 20;
+    height: 70px;
+    padding:20px 0 18px;
+    text-align: left;  
+    background-color:rgb(0,0,0); 
+}
+
+.logo,
+.nav {
+    display: inline-block;
+}
+
+.nav {
+    margin-left: 621px;
+}
+
+.logo {
+    margin-left: 110px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: 28px;
+    text-transform: uppercase;
+    color:rgb(255,255,255);
+}
+
+span {
+    color:rgb(255,0,0);
+}
+
+.nav a {
+    margin: 0 24px;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;    
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*Header
+======================================================= */
+
+.header {
+    width: 1400px;
+    height: 601px;
+    font-size: 0;    
+    text-align: left;
+    background: url(../image/city-header.png);    
+}
+
+.background-mask {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.left-section-header,
+.right-section-header {
+    display: inline-block;
+    width: 50%;
+    height: 601px;
+}
+
+.left-section-header {
+    padding-left: 110px;
+}
+
+.right-section-header {
+    padding-left: 219px;
+    vertical-align: top;
+}
+
+.header-title {
+    padding-top: 109px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+}
+
+.header-subtitle {
+    width: 544px;
+    margin: 32px 0;
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.header-line {
+    width: 64px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.header-text {
+    width: 282px;
+    margin: 39px 0;
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.header button {
+    margin: 0;
+}
+
+.form__fields {
+    width: 370px;
+    height: 370px; 
+    margin-top: 111px;
+    border-radius: 0px 0px 8px 8px;
+    background-color:rgb(255, 255, 255);
+}
+
+.form__fields span {
+    text-transform: uppercase;
+    color:rgb(255,0,0);
+}
+
+.form__fields div input {
+    height: 57px; 
+    width: 252px;
+    font-weight: normal;
+    font-size: 14px;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid rgb(189, 189, 189);
+}
+
+.username {
+    margin-top: 28px;
+}
+
+.form__fields div {
+    height: 57px;
+    text-align: center;
+}
+
+.password {
+    margin-bottom: 61px;
+}
+
+.form__fields p {
+    height: 56px;
+    padding-top:18px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(51, 51, 51);
+}
+
+.form__signin-button {
+    width: 370px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(236, 121, 121);
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+}
+
+/* Social icons 
+================================================================*/
+.social-icons {
+    padding: 0 0 17px 111px;
+    font-size: 0;
+    text-align: left;
+    background-color:rgb(248, 239, 239);
+}
+
+.social-icons div {
+    display: inline-block;
+}
+
+.title_social-icons {
+    padding: 14px 0 14px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color:rgb(51, 51, 51);
+}
+
+.text_social-icons {
+    width: 365px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color:rgb(134, 135, 139);
+}
+
+.social-icons_background {
+    width: 684px;
+    height: 42px;
+    margin: 0 0 17px 149px;
+    background-image: url(../image/social-icons.png);
+}
+
+/* Features
+============================================================ */
+.features {
+    height: 600px;
+    padding-left: 111px;
+    font-size: 0;
+    text-align: left;
+}
+
+.tab,
+.features-main,
+.features-image {
+    display: inline-block;
+    height: 600px;
+    vertical-align: top;
+}
+
+.tab div {
+    height: 110px;
+    width: 112px;
+    padding-top: 45px;
+    margin-right: 118px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(0,0,0);
+    border-radius: 4px;
+    color: rgb(255,255,255);
+}
+
+.tab div:hover {
+    background-color:rgb(236, 121, 121);
+}
+
+.tab div:first-child {
+    margin-top: 125px;
+}
+
+.tab div:nth-child(2) {
+    margin: 10px 0;
+}
+
+.features-title {
+    margin-top: 126px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: rgb(0,0,0);
+}
+
+.features-text {
+    width: 572px;
+    margin-top: 58px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color:rgb(134, 135, 139);
+}
+
+.features-text-end {
+    width: 572px;
+    margin-top: 23px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color:rgb(134, 135, 139);
+}
+
+.features button {
+    margin-top: 89px;
+    background: rgb(0,0,0);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.features button:hover {
+    background: rgb(236, 121, 121);
+}
+
+.features-image{
+    width: 320px;
+    height: 253px;
+    margin: 100px 0 0 50px;
+    background-image: url(../image/background-city.png);
+}
+
+/*
+OUR PROCESS
+ =============================================================*/
+.main-our-process {
+    font-size: 0px;
+    padding-top: 68px;
+    padding-bottom: 89px;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    height: 225px;
+    margin: 0 16px;  
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid rgb(231, 36, 36);
+}
+
+.icon-lamp {
+    background: no-repeat center url(../image/lamp.png);
+}
+.icon-keyboard {
+    background: no-repeat center url(../image/keyboard.png);
+}
+.icon-ligtning {
+    background: no-repeat center url(../image/lightning.png);
+}
+
+.card-title {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(51, 51, 51);
+}
+
+.text {
+    font-weight: normal;
+    font-size: 14px;
+    color:rgb(0,0,0);
+    height: 60px;
+}
+
+/* pricing
+=============================================================== */
+
+.pricing {
+    background-color:rgb(245, 245, 245);
+}
+
+.pricing-main {
+    font-size: 0;
+    padding: 62px 0 60px;
+}
+
+.card-pricing {
+    display: inline-block;
+    height: 467px;
+    width: 340px;
+}
+
+.card-pricing p:first-child {
+    height: 50px;
+    margin: 0;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    background-color:rgb(51, 51, 51);
+}
+
+.card-pricing p:nth-child(2) {
+    height: 100px;
+    margin: 1px 0 2px;
+    padding-top: 26px;
+    font-family: Raleway,sans serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: rgb(255,255,255);
+    background-color:rgb(51, 51, 51);
+}
+
+.card-pricing p:nth-child(3) {
+    height: 50px;
+    padding-top: 19px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color:rgb(55,55,55)
+}
+
+.card-pricing li {
+    height: 40px;
+    margin-top: 4px;
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(134, 135, 139);
+    background-color: rgb(255,255,255);
+    list-style-type: none;
+}
+
+.pricing-main div:nth-child(2) {
+    position: relative;
+    z-index: 10;
+    bottom: 15px;
+    margin: 0 78px;
+}
+
+/* testimotional
+============================================================= */
+.main-testimonials {
+    padding: 67px 0 119px 0; 
+    font-size: 0;
+}
+
+.card-testimonials {
+    display: inline-block;
+    width: 298px;
+    font-size: 0;
+}
+
+.card-testimonials-center {
+    margin: 0 56px;
+}
+
+.card-testimonials blockquote {
+    margin-bottom: 22px;
+    padding: 14px 14px 10px 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color:rgb(134, 135, 139);
+    background-color:rgb(226, 226, 226);
+    border-radius: 7px;
+}
+
+.card-testimonials h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(51, 51, 51);
+}
+
+.card-testimonials p {
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(134, 135, 139);
+}
+
+.jeremy-image,
+.card-testimonials-fotter {
+    display: inline-block;
+}
+
+.card-testimonials-fotter {
+    margin: 8px 0 0 45px;
+    vertical-align: top;
+    text-align: right;
+}
+
+/* noname-Section
+============================================================= */
+.noname-section {
+   background: url(/image/background-nosection.png);
+}
+
+.noname-section-bulgarian {
+    width: 100%;
+    height: 100%;
+    padding: 58px 0 38px;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.name-section {
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+}
+
+.line-section {
+    height: 2px;
+    width: 64px;
+    margin: 48px auto 30px;
+    background-color:rgb(255,255,255);
+    border:none;
+}
+
+.subtitle-section {
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.button {
+    background: none;
+    width: 135px;
+    height: 42px;
+    border: 1px solid rgb(255,255,255);
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color:#FFFFFF;
+}
+/* Contact us 
+=================================================================== */
+
+
+.form div input {
+    width: 478px;
+    height: 96px;
+    font-weight: normal;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.form div {
+    text-align: left;
+}
+
+.form-button {
+    margin: 69px 0 44px;
+    border-radius: 0 0 0 0;
+}
+
+form {
+    font-size: 0;
+}
+
+.left-part {
+    vertical-align: top;
+}
+
+.left-part,
+.text-area {
+    display: inline-block;
+}
+
+.text-area label textarea {
+    width: 478px;
+    height: 250px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    font-weight: normal;
+    font-size: 14px;
+    background: transparent;
+}
+
+.text-area {
+    margin: 38px 0 0 222px;
+    vertical-align: top;
+}
+
+/* Footer
+=================================================================== */
+
+.footer {
+    padding-top: 28px;
+    padding-bottom:9px;
+    font-size: 0;
+    background-color:rgb(0, 0, 0);
+}
+
+.footer a {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);      
+}
+
+.image-footer {
+    height: 23px;   
+}
+
+.unicode {
+    margin-top: 17px;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
