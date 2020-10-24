@@ -21,7 +21,7 @@
     font-weight: normal;
     font-family: Raleway,sans-serif;
     text-transform: uppercase;
-    color:#212121;
+    color:rgb(33, 33, 33);
 }
 
 .line-default {
@@ -89,7 +89,7 @@ span {
 }
 
 /*Header
-======================================================= */
+=========================================================== */
 
 .header {
     width: 1400px;
@@ -161,7 +161,7 @@ span {
     margin: 0;
 }
 
-.form__fields {
+.form--fields {
     width: 370px;
     height: 370px; 
     margin-top: 111px;
@@ -169,12 +169,12 @@ span {
     background-color:rgb(255, 255, 255);
 }
 
-.form__fields span {
+.form--fields span {
     text-transform: uppercase;
     color:rgb(255,0,0);
 }
 
-.form__fields div input {
+.form--fields div input {
     height: 57px; 
     width: 252px;
     font-weight: normal;
@@ -188,7 +188,7 @@ span {
     margin-top: 28px;
 }
 
-.form__fields div {
+.form--fields div {
     height: 57px;
     text-align: center;
 }
@@ -197,7 +197,7 @@ span {
     margin-bottom: 61px;
 }
 
-.form__fields p {
+.form--fields p {
     height: 56px;
     padding-top:18px;
     font-weight: bold;
@@ -208,7 +208,7 @@ span {
     color: rgb(51, 51, 51);
 }
 
-.form__signin-button {
+.form--signin-button {
     width: 370px;
     height: 54px;
     font-weight: 600;
@@ -232,7 +232,7 @@ span {
     display: inline-block;
 }
 
-.title_social-icons {
+.title-social-icons {
     padding: 14px 0 14px;
     font-weight: bold;
     font-size: 20px;
@@ -240,7 +240,7 @@ span {
     color:rgb(51, 51, 51);
 }
 
-.text_social-icons {
+.text-social-icons {
     width: 365px;
     font-weight: normal;
     font-size: 14px;
@@ -248,7 +248,7 @@ span {
     color:rgb(134, 135, 139);
 }
 
-.social-icons_background {
+.social-icons-background {
     width: 684px;
     height: 42px;
     margin: 0 0 17px 149px;
@@ -649,4 +649,8 @@ form {
     font-weight: normal;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.footer li {
+    display: inline-block;
 }
