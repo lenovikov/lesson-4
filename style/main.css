@@ -521,7 +521,7 @@ OUR PROCESS
 /* noname-Section
 ============================================================= */
 .noname-section {
-   background: url(/image/background-nosection.png);
+   background: url(../image/background-nosection.png);
 }
 
 .noname-section-bulgarian {
